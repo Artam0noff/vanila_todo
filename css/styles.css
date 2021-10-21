@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textfield {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.button-wrapper {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.list-wrapper{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+}
+
+.text-wrapper {
+    /* float: left; */
+}
+
+.option-wrapper{
+    /* float:right; */
+}
+
+.done {
+    text-decoration: line-through black;
+    /* float: left; */
+}
+
+.todos {
+    
+}
+
+#todos {
+    padding-left: 0px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid black;
+}
+
+.delete-button{
+    
+}
+
+.is-done {
+    margin-right: 12px;
+}
+
